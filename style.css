@@ -1,0 +1,56 @@
+
+        body{
+    background-color: aliceblue;
+}
+.container{
+    width: 250px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 80px auto;
+    background-color: #f2e9e4;
+    box-shadow: 5px 5px 10px #8e7c93, -5px -5px 10px #ffffff;
+}
+.cal-box{
+    width: 200px;
+    margin: 20px auto;
+}
+#display{
+    border: none;
+    outline: none;
+    color: black;
+    text-align: right;
+    font-weight: 600;
+    padding: 15px;
+    margin: 30px 0px 20px 0px;
+    background: transparent;
+    box-shadow: inset 2px 2px 5px #cfaffc, inset -5px -5px 10px #ffffff ;
+}
+
+.button{
+    margin: 15px 0 0 5px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    background: #bfc0c0;
+    box-shadow: 5px 5px 10px #b6acac, -5px -5px 10px #eeebeb ;
+    display: inline-block;
+}
+.button:active{
+    box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #ffffff;
+
+}
+.clearButton{
+    background: #bf0603;
+    color: white;
+
+}
+.mathbutton{
+    background: #22223b;
+    color: white;
+
+}
